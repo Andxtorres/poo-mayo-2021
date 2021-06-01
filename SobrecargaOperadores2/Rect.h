@@ -21,6 +21,7 @@ class Rect{
         }
         Rect operator+(const Pol& pol){
             Rect resultado(0,0);
+            //Todo 
             return resultado;
         }
 
