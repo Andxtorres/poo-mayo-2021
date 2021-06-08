@@ -14,9 +14,5 @@ int main(){
     Pol pol3;
     pol3= pol1*pol2;
     pol3.imprimir();
-
-    Rect rect4;
-    rect4=rect1+pol1;
-    rect4.imprimir();
     return 0;
 }

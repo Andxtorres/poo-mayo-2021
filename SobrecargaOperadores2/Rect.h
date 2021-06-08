@@ -1,11 +1,11 @@
+class Pol;
 #ifndef RECT_H_INCLUDED
 #define RECT_H_INCLUDED
-#include "Pol.h"
 #include <math.h>
-
+#include "Pol.h"
 class Rect{
 
-    private:
+    public:
         int x, y;
     public:    
         Rect();
@@ -17,11 +17,6 @@ class Rect{
             Rect resultado;
             resultado.x=this->x+rect.x;
             resultado.y=this->y+rect.y;
-            return resultado;
-        }
-        Rect operator+(const Pol& pol){
-            Rect resultado(0,0);
-            //Todo 
             return resultado;
         }
 

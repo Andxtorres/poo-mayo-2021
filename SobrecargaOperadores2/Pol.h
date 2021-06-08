@@ -1,6 +1,6 @@
 #ifndef POL_H_INCLUDED
 #define POL_H_INCLUDED
-#include "Rect.h"
+#include <iostream>
 class Pol{
 
     private:
@@ -17,13 +17,6 @@ class Pol{
             resultado.ang=ang+pol.ang;
             return resultado;
         }
-        Pol operator*(const Rect& rect){
-            Pol resultado;
-            //Todo
-            
-            return resultado;
-        }
-
 
 };
 
